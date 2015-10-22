@@ -1,0 +1,33 @@
+div {
+	border-width: 2px;
+	border-style: solid;
+	border-color: maroon;
+}
+.text {
+	text-align: center;
+}
+.quiz-intro {
+	text-align: center;
+}
+.quiz-content {
+	
+}
+.quiz-answers {
+  	display: inline-block;
+  	flex-wrap: wrap;
+  	align-items: center;
+  	width: 554px;
+  	height: 206px; 
+  	margin-left: 23.75em;
+  }
+.answer {
+	flex: 1 0 50%;
+	line-height: 6rem;
+	background-color: #ebebeb;
+	padding: 0 0 0 0;
+
+	width: 25em;
+}
+.answer:hover {
+	background: LightGray;
+}
