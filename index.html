@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
 	<title>Personality Quiz</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script type="text/javascript" src= "script.js"></script>
 </head>
@@ -22,13 +24,18 @@
 	<div class="quiz-content">
 		<div class="quiz-questions">
 			<div class="quiz-answers">
-				<input type="button" class="answer" value="First Answer"></input>
+				<input type="button" class="selected" value="First Answer"></input>
 				<input type="button" class="answer" value="Second Answer"></input>
 				<input type="button" class="answer" value="Third Answer"></input>
 				<input type="button" class="answer" value="Fourth Answer"></input>
 			</div>
 		</div>
 	</div>
-
+	<div class=quiz-action> 
+        <button type=submit class=submit>Submit Answer
+        </button> 
+        <button class="next-question">Next Question
+        </button> 
+    </div> 
 </body>
 </html>
