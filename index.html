@@ -9,33 +9,58 @@
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script type="text/javascript" src= "script.js"></script>
 </head>
-<body>
-	<div class="quiz-intro">
-		<h1>Personality Quiz</h1>
-	</div>
-	<div class="quiz-instructions">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
-	<div class="quiz-content">
-		<div class="quiz-questions">
-			<div class="quiz-answers">
-				<input type="button" class="selected" value="First Answer"></input>
-				<input type="button" class="answer" value="Second Answer"></input>
-				<input type="button" class="answer" value="Third Answer"></input>
-				<input type="button" class="answer" value="Fourth Answer"></input>
-			</div>
-		</div>
-	</div>
-	<div class=quiz-action> 
-        <button type=submit class=submit>Submit Answer
-        </button> 
-        <button class="next-question">Next Question
-        </button> 
+<body> 
+
+	<div class= quiz-intro>
+<section class="introduction"> 
+ 		<h1>What kind of Hipster Are You?</h1>
+	<div class= wrapper--content> 
+         
+ 	</div> 
     </div> 
-</body>
-</html>
+        <div class="wrapper--content quiz-instructions"> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+        </div> 
+</section>
+<section class= "game-area">
+        <div class="wrapper--content quiz-content">  
+        <div class=quiz-question> 
+        <div class=quiz-details> 
+        <div class=quiz-number> Question <span class=question-index>1</span> of <span class=question-total>5</span> 
+        </div> 
+        
+        </div>  
+        <div class= quiz-options>  
+        	<label for= 1>Fall</label> 
+        		<input id= "option-1" type=button name= quiz-item value="1"> 
+       		 <label for= 2>Winter</label> 
+        		<input id= "option-2" type=button name= quiz-item value="2"> 
+        	<label for= 3>Spring</label> 
+        		<input id= "option-3" type=button name= quiz-item value="3"> 
+        	<label for= 4>Summer</label> 
+        		<input id= "option-4" type=button name= quiz-item value="4"> 
+        </div> 
+        <div class=quiz-action> 
+        	<button type= submit class= user-submit>Submit Answer</button> 
+        	<button class="next">Next Question</button> 
+        </div> 
+       
+
+        </div> 
+        <div class="wrapper--content quiz-complete hidden"> 
+        <h1>Thanks for playing</h1> 
+       
+        <button class=play-again>Play Again?</button> 
+        </div> 
+</section>       
+        <footer class=wrapper--content> 
+        
+        </footer>  
+
+    </body> 
+    </html> 
