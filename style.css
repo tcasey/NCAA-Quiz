@@ -1,3 +1,25 @@
+.introduction h1 {
+	font-family: 'lato';
+	font-size: 3em;
+	text-align: center;
+
+}
+.introduction p {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'lato';
+}
+
+#start {
+	border: none;
+	background-color: #f15a29;
+	color: #fff;
+	border-radius: 0;
+	line-height: 2rem;
+	padding: 0 1rem;
+	text-align: center;
+	align-items: center;
+}
 
 .quiz-action,
 .quiz-options > label,

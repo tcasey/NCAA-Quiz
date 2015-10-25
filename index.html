@@ -6,34 +6,25 @@
 	<title>Personality Quiz</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script type="text/javascript" src= "script.js"></script>
+	
 </head>
 <body> 
 
+		
+	<section class="introduction">
 	<div class= quiz-intro>
-<section class="introduction"> 
- 		<h1>What kind of Hipster Are You?</h1>
-	<div class= wrapper--content> 
-         
- 	</div> 
-    </div> 
-        <div class="wrapper--content quiz-instructions"> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-        </div> 
-</section>
-<section class= "game-area">
+		<h1>Are You a Hipster?</h1>			
+		<p>Well Let's Find Out...</p>
+		<button id="start">START</button>
+	</section>
+
+	<section class= "game-area">
         <div class="wrapper--content quiz-content">  
         <div class=quiz-question> 
         <div class=quiz-details> 
         <div class=quiz-number> Question <span class=question-index>1</span> of <span class=question-total>5</span> 
         </div> 
-        
+        	<p id="current-question"></p>
         </div>  
         <div class= quiz-options>  
         	<label for= 1>Fall</label> 
@@ -49,18 +40,18 @@
         	<button type= submit class= user-submit>Submit Answer</button> 
         	<button class="next">Next Question</button> 
         </div> 
-       
+        </div>  
+	</section>      
+	</section>
 
-        </div> 
-        <div class="wrapper--content quiz-complete hidden"> 
-        <h1>Thanks for playing</h1> 
-       
-        <button class=play-again>Play Again?</button> 
-        </div> 
-</section>       
-        <footer class=wrapper--content> 
-        
-        </footer>  
-
+	<section class="quiz-results">		
+		<h1>FINAL SCORE</h1>			
+		<p>You answered <span id="total-correct"></span> out of 5 questions correct.</p>
+		<p id="rating">Your rating: <span id="user-rating"></span></p>
+		<button id="start-over">START OVER</button>				
+		
+	</section>  
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
+	<script type="text/javascript" src="script.js"></script>
     </body> 
     </html> 
