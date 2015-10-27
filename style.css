@@ -99,10 +99,29 @@ p {
 /*------------------------------------------
                    Overlay Section
 --------------------------------------------*/
-#image {
-
+.overlay {
+	z-index: 1000;
+	display: none;
+	border-radius: 3px;
+	margin-top: -18px;	
 }
-
+.overlay p {
+	font-family: 'lato', sans-serif;
+	font-size: 1.5em;
+	color: #626f77;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.overlay img {
+	float: left;
+	margin-right: 10px;
+}
+.overlay .images {
+	text-align: center;
+}
+#image {
+	
+}
 /*------------------------------------------
                    Results Section
 --------------------------------------------*/

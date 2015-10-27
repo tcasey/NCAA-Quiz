@@ -19,35 +19,40 @@ var questions = [{
   qNum: 1,
   choices: ["William Alexander", "John Heisman", "George O'Leary", "Bobby Dodd"],
   answer: "John Heisman",
-  image: "",
+  image: "images/Heisman.png",
+  desc: "Georgia Tech led 63–0 after the first quarter and 126–0 at halftime. Tech added 54 more points in the third quarter and 42 in the final period. Cumberland's only effective defense was an extra point blocked with a sort of human pyramid."
   },
 {
   question: "Which coach won the most national titles during the BCS era?",
   qNum: 2,
   choices: ["Nick Saban", "Joe Paterno", "Kevin Donley", "LaVell Edwards"],
   answer: "Nick Saban",
-  image: "",
+  image: "images/NickSaban.png",
+  desc: "The win secured Saban his third BCS Championship, his second with Alabama, and the 14th National Championship for the Alabama football team. He is the only coach in college football to win three BCS Championships and the first coach since Tom Osborne to win three National Championships."
   },
 {
-  question: "Who is the only college football coach to lose 200 games in his career?",
+  question: "What college team has the worst winning percentage in History?",
   qNum: 3,
-  choices: ["John Gagliardi", "Frank Beamer", "Watson Brown", "Todd Knight"],
-  answer: "Watson Brown",
-  image: "",
+  choices: ["UTEP", "Indiana Hoosiers", "Kent State", "New Mexico State"],
+  answer: "Kent State",
+  image: "images/Kent.png",
+  desc: "They have an all-time record of 316-505-28. The program has been around since 1920 and since that time, they have only been to two bowl games, both of which were losses."
   },
 {
   question: "What live college mascot is named Ralphie?",
   qNum: 4,
-  choices: ["Boston College's Eagle", "UCLA's Bruin", "BYU's Cougar", "Colorado’s Buffalo"],
+  choices: ["Notre Dame's Leprechaun","USC's Trojan", "Georgia's Bulldog", "Colorado’s Buffalo"],
   answer: "Colorado’s Buffalo",
-  image: "",
+  image: "images/Ralphie.png",
+  desc: "Ralphie the Buffalo is the name of the live mascot of the University of Colorado Buffaloes. Ralphie has been called one of the best live mascots in sports, and she is often erroneously labeled male."
   },
 {
-  question: "What two schools played in the first college football game in 1869?",
+  question: "What college team has the most wins in History?",
   qNum: 5,
-  choices: ["Yale & Harvard", "Princeton & Rutgers", "USC & UCLA", "Notre Dame & Penn State"],
-  answer: "Princeton & Rutgers",
-  image: "",
+  choices: ["BYU", "Notre Dame", "Michigan", "Texas"],
+  answer: "Michigan",
+  image: "images/Michigan.png",
+  desc: "Measured in total wins, the Michigan Wolverines lead all other football programs across all divisions with 920 wins."
   }]
 
 // hides questions, overlay, and quiz results area
