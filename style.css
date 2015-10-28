@@ -43,6 +43,7 @@ p {
 	text-align: center; 
 	font-size: 1.8em;
 	font-family: 'Quicksand';
+
 }
 .game-area p,
 .game-area h2,
@@ -60,7 +61,7 @@ p {
 }
 .quiz-intro {
 
-	height: 9em;
+	height: 12em;
 	position: fixed;
 	top: 0;
 	left: 0;
