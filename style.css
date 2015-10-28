@@ -23,25 +23,34 @@ p {
 	max-width: 38em;
 	margin: 2em auto 0;
 }
-.introduction h1,
 .game-area h1,
 .overlay h1 {
 	font-family: 'lato';
-	font-size: 900;
+	font-size: 3em;
+	text-align: center;
+	height: 4em;
+	padding: 0;	
+}
+.introduction h1 {
+	font-family: 'Quicksand';
+	font-weight: 400;
 	font-size: 3em;
 	text-align: center;
 	height: 4em;
 	padding: 0;
-	margin: 1rem 0;
 }
-.introduction p,
+.introduction p {
+	text-align: center; 
+	font-size: 1.8em;
+	font-family: 'Quicksand';
+}
 .game-area p,
 .game-area h2,
 .overlay p,
 .quiz-results p {
 	text-align: center;
 	font-size: 2em;
-	font-family: 'lato';
+	font-family: 'Quicksand';
 }
 
 .quiz-intro,
@@ -50,8 +59,8 @@ p {
 	background-color: #fff;
 }
 .quiz-intro {
-	margin-bottom: 2rem;
-	height: 6em;
+
+	height: 9em;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -59,6 +68,9 @@ p {
 	z-index: 100;
 	position: absolute;
 	line-height: 4rem;
+}
+.introduction .NCAA{
+	text-align: center;
 }
 /*------------------------------------------
                    Game Area 
@@ -81,8 +93,15 @@ p {
 	font-weight: 700;
 	padding: 0 0 1rem;
 }
-.game-area h2 {
+.game-area h2,
+#current-question {
 	padding-top: 0.8em;
+	text-align: center; 
+	font-size: 1.8em;
+	font-family: 'Quicksand';
+}
+.game-area h2 {
+	font-weight: 300;
 }
 #current-question-number,
 #current-question {
@@ -106,7 +125,7 @@ p {
 	margin-top: -18px;	
 }
 .overlay p {
-	font-family: 'lato', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5em;
 	color: #626f77;
 	padding-left: 22px;
@@ -132,7 +151,7 @@ p {
 	text-align: center;
 }
 .quiz-results h1 {
-	font-family: 'lato';
+	font-family: 'Quicksand';
 	font-size: 2.5em;
 	text-align: center;
 	
@@ -161,14 +180,17 @@ p {
 }
 
 .quiz-options > button {
-	flex: 1 0 50%;
-	line-height: 6rem;
 	background-color: #ebebeb;
-	padding: 0 0 0 .5rem;
 	border-bottom: #fff 1px solid;
-	width: 31.67em;
+	border-left: #fff 1px solid;
+	border-top: #fff 1px solid;
+	border-right: #fff 1px solid;
+	width: 21.775em;
+	height: 6em;
 	transition: all .5s ease-in-out;
 	text-align: center;
+	font-size: 1em;
+	font-family: 'lato';
 }
 .quiz-options > button:hover {
 	background-color: #f15a29;

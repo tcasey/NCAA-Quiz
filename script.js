@@ -209,7 +209,7 @@ var giveUserRating = (function(){
       } else if(correct === 3) {
         $userRating.text("Bowl Eligible");
       } else {
-        $userRating.text("Just Go Watch the CFL...");
+        $userRating.text("Need I Even Say It...");
       } 
     } 
 
