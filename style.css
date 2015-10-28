@@ -23,14 +23,8 @@ p {
 	max-width: 38em;
 	margin: 2em auto 0;
 }
-.game-area h1,
-.overlay h1 {
-	font-family: 'lato';
-	font-size: 3em;
-	text-align: center;
-	height: 4em;
-	padding: 0;	
-}
+
+
 .introduction h1 {
 	font-family: 'Quicksand';
 	font-weight: 400;
@@ -94,6 +88,11 @@ p {
 	font-weight: 700;
 	padding: 0 0 1rem;
 }
+.game-area h1 {	
+	font-family: 'lato';
+	font-size: 3em;
+	text-align: center;
+}
 .game-area h2,
 #current-question {
 	padding-top: 0.8em;
@@ -124,6 +123,13 @@ p {
 	display: none;
 	border-radius: 3px;
 	margin-top: -18px;	
+}
+.overlay h1 {
+	font-family: 'lato';
+	font-size: 3em;
+	text-align: center;
+	
+	padding: 0;	
 }
 .overlay p {
 	font-family: 'Quicksand', sans-serif;
